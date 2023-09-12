@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        int sum = add(3, 8);
+        int sum = add(3,8);
         System.out.println(sum);
 
         int total = add(3, 8, 4, 9);
@@ -32,7 +32,7 @@ public class Main {
         System.out.println(roundedNegative1);
 
         int roundedNegative2 = roundNegativeValueToNearestInteger(-8.49);
-        System.out.println(roundedNegative2); // Output: -8
+        System.out.println(roundedNegative2);
     }
     public static int add(int a, int b) {
             return a + b;
